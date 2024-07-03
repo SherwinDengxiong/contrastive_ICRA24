@@ -18,8 +18,8 @@ This repository contains the contrastive learning code and resources for the res
 
 ### <span style="color:blue">Recent Progress: (based on ROS1)</span>
 - Contrastive learning code （demo code）
-- Interaction interation and control [Unity Project] (https://github.com/SherwinDengxiong/test_zed)
-- Demonstration with the robot [ROS Package] (https://github.com/SherwinDengxiong/xarm_moveit)
+- Interaction interation and control [Unity_Project](https://github.com/SherwinDengxiong/test_zed)
+- Demonstration with the robot [ROS_Package](https://github.com/SherwinDengxiong/xarm_moveit)
 
 ### <span style="color:blue">Recent Progress: (based on ROS2)</span>
 - Multi-modal interaction with LLM (In Progress)
@@ -37,17 +37,17 @@ Most existing 6-DoF robot grasping solutions depend on strong supervision on gra
 ### Installation:
 <!-- [Include installation instructions here if applicable] -->
 
-This project is supported by Unity 20.03 and ROS1 Noetic
+This project is supported by Unity 20.03 or higher and ROS1 Noetic
 
 Unity Packages:
 1. URDF Importer version 0.4.0 [Link](https://github.com/Unity-Technologies/URDF-Importer)
-2. ROS TCP Connector version 0.5.0 [Link] (https://github.com/Unity-Technologies/ROS-TCP-Connector)
+2. ROS TCP Connector version 0.5.0 [Link](https://github.com/Unity-Technologies/ROS-TCP-Connector)
 
-ROS1 Package:
-1. ROS TCP Endpoint version 0.5.0 [Link] (https://github.com/Unity-Technologies/ROS-TCP-Endpoint)
+ROS1 Packages:
+1. ROS TCP Endpoint version 0.5.0 [Link](https://github.com/Unity-Technologies/ROS-TCP-Endpoint)
+2. Xarm6 ros1 package from Ufactory [Link](https://github.com/xArm-Developer/xarm_ros)
 
-
-For further question about the package, please refer to the documentation from [Unity Robotics Hub] (https://github.com/Unity-Technologies/Unity-Robotics-Hub)
+For further question about the package, please refer to the documentation from [Unity Robotics Hub](https://github.com/Unity-Technologies/Unity-Robotics-Hub) and [Ufactory](https://github.com/xArm-Developer/xarm_ros)
 
 ### Usage:
 <!-- [Include usage instructions here if applicable] -->
@@ -65,7 +65,7 @@ For further question about the package, please refer to the documentation from [
 
 ### Acknowledgments:
 <!-- [If there are any acknowledgments you want to make, include them here] -->
-Special thanks to the [Unity Robotics Hub Team] ((https://github.com/Unity-Technologies/Unity-Robotics-Hub)) for their useful packages and tutorials.
+Special thanks to the [Unity Robotics Hub Team] ((https://github.com/Unity-Technologies/Unity-Robotics-Hub)) and [Ufactory Team] for their useful packages and tutorials.
 ### Contributing:
 <!-- [Include guidelines for contributing if applicable] -->
 
