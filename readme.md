@@ -23,7 +23,7 @@ This repository contains the contrastive learning code and resources for the res
 
 ### <span style="color:blue">Recent Progress: (based on ROS2)</span>
 - Multi-modal interaction with LLM (In Progress)
-Working on additional features
+- Working on additional features
 
 ### Resources:
 - YouTube Video: [Link](https://www.youtube.com/watch?v=mcrLj-tX90s&t=1s)
@@ -31,7 +31,7 @@ Working on additional features
 - CDIME Lab: [Link](https://www.youtube.com/@cdimelabs6965)
 ### Abstract:
 Most existing 6-DoF robot grasping solutions depend on strong supervision on grasp pose to ensure satisfactory performance, which could be laborious and impractical when the robot works in some restricted area. To this end, we propose a self-supervised 6-DoF grasp pose detection framework via an Augmented Reality (AR) teleoperation system that can efficiently learn human demonstrations and provide 6-DoF grasp poses without grasp pose annotations. Specifically, the system collects the human demonstration from the AR environment and contrastively learns the grasping strategy from the demonstration. For the real-world experiment, the proposed system leads to satisfactory grasping abilities and learning to grasp unknown objects within three demonstrations.
-
+![View Poster](poster.pdf)
 
 
 ### Installation:
