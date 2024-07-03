@@ -17,11 +17,12 @@ This repository contains the contrastive learning code and resources for the res
 
 
 ### <span style="color:blue">Recent Progress: (based on ROS1)</span>
-- Contrastive learning code (Will be released in 2 weeks)
-- Chatbot interface for intuitive communication and control(Will be released in June)
-- Active interaction with the robot (Will be released in July)
+- Contrastive learning code （demo code）
+- Interaction interation and control [Unity Project] (https://github.com/SherwinDengxiong/test_zed)
+- Demonstration with the robot [ROS Package] (https://github.com/SherwinDengxiong/xarm_moveit)
 
 ### <span style="color:blue">Recent Progress: (based on ROS2)</span>
+- Multi-modal interaction with LLM (In Progress)
 Working on additional features
 
 ### Resources:
@@ -36,18 +37,35 @@ Most existing 6-DoF robot grasping solutions depend on strong supervision on gra
 ### Installation:
 <!-- [Include installation instructions here if applicable] -->
 
+This project is supported by Unity 20.03 and ROS1 Noetic
+
+Unity Packages:
+1. URDF Importer version 0.4.0 [Link](https://github.com/Unity-Technologies/URDF-Importer)
+2. ROS TCP Connector version 0.5.0 [Link] (https://github.com/Unity-Technologies/ROS-TCP-Connector)
+
+ROS1 Package:
+1. ROS TCP Endpoint version 0.5.0 [Link] (https://github.com/Unity-Technologies/ROS-TCP-Endpoint)
+
+
+For further question about the package, please refer to the documentation from [Unity Robotics Hub] (https://github.com/Unity-Technologies/Unity-Robotics-Hub)
+
 ### Usage:
 <!-- [Include usage instructions here if applicable] -->
 
 ### Citation:
 <!-- [If you want users to cite your paper, include citation information here] -->
-
+@article{dengxiong2024self,
+  title={Self-supervised 6-DoF Robot Grasping by Demonstration via Augmented Reality Teleoperation System},
+  author={Dengxiong, Xiwen and Wang, Xueting and Bai, Shi and Zhang, Yunbo},
+   booktitle={2024 IEEE International Conference on Robotics and Automation (ICRA)},
+  year={2024}
+}
 ### License:
 <!-- [Include license information here] -->
 
 ### Acknowledgments:
 <!-- [If there are any acknowledgments you want to make, include them here] -->
-
+Special thanks to the [Unity Robotics Hub Team] ((https://github.com/Unity-Technologies/Unity-Robotics-Hub)) for their useful packages and tutorials.
 ### Contributing:
 <!-- [Include guidelines for contributing if applicable] -->
 
