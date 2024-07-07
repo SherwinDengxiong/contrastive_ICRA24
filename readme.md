@@ -42,10 +42,12 @@ This project is supported by Unity 20.03 or higher and ROS1 Noetic
 Unity Packages:
 1. URDF Importer version 0.4.0 [Link](https://github.com/Unity-Technologies/URDF-Importer)
 2. ROS TCP Connector version 0.5.0 [Link](https://github.com/Unity-Technologies/ROS-TCP-Connector)
+3. ZED Unity Plugin [Link](https://github.com/stereolabs/zed-unity/releases)
 
 ROS1 Packages:
 1. ROS TCP Endpoint version 0.5.0 [Link](https://github.com/Unity-Technologies/ROS-TCP-Endpoint)
 2. Xarm6 ros1 package from Ufactory [Link](https://github.com/xArm-Developer/xarm_ros)
+3. ZED SDK version 3.7 [Link](https://www.stereolabs.com/developers/release)
 
 For further question about the package, please refer to the documentation from [Unity Robotics Hub](https://github.com/Unity-Technologies/Unity-Robotics-Hub) and [Ufactory](https://github.com/xArm-Developer/xarm_ros)
 
